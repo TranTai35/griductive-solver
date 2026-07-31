@@ -1,0 +1,37 @@
+{
+  "id": "case_02",
+  "title": "Harbor Conspiracy",
+  "description": "A 4x4 chain using all core clue families and two extensions.",
+  "size": 4,
+  "initially_revealed": ["A1", "A3"],
+  "characters": [
+    {"cell":"A1","name":"Arden","profession":"Agent"},{"cell":"B1","name":"Billie","profession":"Botanist"},{"cell":"C1","name":"Cameron","profession":"Cook"},{"cell":"D1","name":"Dakota","profession":"Diver"},
+    {"cell":"A2","name":"Ellis","profession":"Editor"},{"cell":"B2","name":"Finley","profession":"Fisher"},{"cell":"C2","name":"Gale","profession":"Guide"},{"cell":"D2","name":"Hollis","profession":"Healer"},
+    {"cell":"A3","name":"Ira","profession":"Inspector"},{"cell":"B3","name":"Jules","profession":"Jeweler"},{"cell":"C3","name":"Kai","profession":"Keeper"},{"cell":"D3","name":"Lane","profession":"Lawyer"},
+    {"cell":"A4","name":"Morgan","profession":"Mechanic"},{"cell":"B4","name":"Nico","profession":"Nurse"},{"cell":"C4","name":"Oakley","profession":"Officer"},{"cell":"D4","name":"Parker","profession":"Pilot"}
+  ],
+  "solution": {
+    "A1":"CRIMINAL","B1":"INNOCENT","C1":"CRIMINAL","D1":"INNOCENT",
+    "A2":"INNOCENT","B2":"CRIMINAL","C2":"INNOCENT","D2":"CRIMINAL",
+    "A3":"CRIMINAL","B3":"INNOCENT","C3":"CRIMINAL","D3":"INNOCENT",
+    "A4":"INNOCENT","B4":"CRIMINAL","C4":"INNOCENT","D4":"CRIMINAL"
+  },
+  "clues": {
+    "A1":{"id":"H01","type":"FACT","data":{"cell":"B1","status":"INNOCENT"},"text":"Billie is innocent."},
+    "B1":{"id":"H02","type":"DIFFERENT","data":{"a":"B1","b":"C1"},"text":"Billie and Cameron have different statuses."},
+    "C1":{"id":"H03","type":"SAME","data":{"a":"C1","b":"B2"},"text":"Cameron and Finley have the same status."},
+    "D1":{"id":"H05","type":"FACT","data":{"cell":"A2","status":"INNOCENT"},"text":"Ellis is innocent."},
+    "A2":{"id":"H06","type":"SAME","data":{"a":"A2","b":"C2"},"text":"Ellis and Gale have the same status."},
+    "B2":{"id":"H04","type":"DIFFERENT","data":{"a":"B2","b":"D1"},"text":"Finley and Dakota have different statuses."},
+    "C2":{"id":"H07","type":"EXACTLY","data":{"k":1,"region":{"kind":"EXPLICIT","cells":["C2","D2"]}},"text":"Exactly one of Gale and Hollis is criminal."},
+    "D2":{"id":"H08","type":"FACT","data":{"cell":"A3","status":"CRIMINAL"},"text":"Ira is a criminal."},
+    "A3":{"id":"H09","type":"DIFFERENT","data":{"a":"A3","b":"B3"},"text":"Ira and Jules have different statuses."},
+    "B3":{"id":"H10","type":"SAME","data":{"a":"A3","b":"C3"},"text":"Ira and Kai have the same status."},
+    "C3":{"id":"H11","type":"DIFFERENT","data":{"a":"C3","b":"D3"},"text":"Kai and Lane have different statuses."},
+    "D3":{"id":"H12","type":"FACT","data":{"cell":"A4","status":"INNOCENT"},"text":"Morgan is innocent."},
+    "A4":{"id":"H13","type":"PARITY","data":{"parity":"ODD","region":{"kind":"EXPLICIT","cells":["A4","B4"]}},"text":"The number of criminals among Morgan and Nico is odd."},
+    "B4":{"id":"H14","type":"IMPLIES","data":{"a":"B4","b":"D4"},"text":"If Nico is criminal, then Parker is criminal."},
+    "C4":{"id":"H16","type":"FACT","data":{"cell":"A1","status":"CRIMINAL"},"text":"Arden is a criminal."},
+    "D4":{"id":"H15","type":"SAME","data":{"a":"A4","b":"C4"},"text":"Morgan and Oakley have the same status."}
+  }
+}

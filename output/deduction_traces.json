@@ -1,0 +1,844 @@
+{
+  "case_01": [
+    {
+      "step": 1,
+      "active_clues": [
+        "N01",
+        "N04"
+      ],
+      "sat_calls": 19,
+      "cell": "B1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "N02"
+    },
+    {
+      "step": 2,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02"
+      ],
+      "sat_calls": 17,
+      "cell": "C1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "N03"
+    },
+    {
+      "step": 3,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03"
+      ],
+      "sat_calls": 15,
+      "cell": "A2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "N05"
+    },
+    {
+      "step": 4,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05"
+      ],
+      "sat_calls": 13,
+      "cell": "B2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "N04"
+    },
+    {
+      "step": 5,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05"
+      ],
+      "sat_calls": 11,
+      "cell": "A3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "N06"
+    },
+    {
+      "step": 6,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05",
+        "N06"
+      ],
+      "sat_calls": 9,
+      "cell": "B3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "N07"
+    },
+    {
+      "step": 7,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05",
+        "N06",
+        "N07"
+      ],
+      "sat_calls": 7,
+      "cell": "C2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "N08"
+    },
+    {
+      "step": 8,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05",
+        "N06",
+        "N07",
+        "N08"
+      ],
+      "sat_calls": 5,
+      "cell": "C3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "N09"
+    },
+    {
+      "step": 9,
+      "active_clues": [
+        "N01",
+        "N04",
+        "N02",
+        "N03",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "sat_calls": 3,
+      "cell": "A1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "N01"
+    }
+  ],
+  "case_02": [
+    {
+      "step": 1,
+      "active_clues": [
+        "H01",
+        "H09"
+      ],
+      "sat_calls": 33,
+      "cell": "B1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H02"
+    },
+    {
+      "step": 2,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02"
+      ],
+      "sat_calls": 31,
+      "cell": "C1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H03"
+    },
+    {
+      "step": 3,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03"
+      ],
+      "sat_calls": 29,
+      "cell": "B2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H04"
+    },
+    {
+      "step": 4,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04"
+      ],
+      "sat_calls": 27,
+      "cell": "D1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H05"
+    },
+    {
+      "step": 5,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05"
+      ],
+      "sat_calls": 25,
+      "cell": "A2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H06"
+    },
+    {
+      "step": 6,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06"
+      ],
+      "sat_calls": 23,
+      "cell": "C2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H07"
+    },
+    {
+      "step": 7,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07"
+      ],
+      "sat_calls": 21,
+      "cell": "D2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H08"
+    },
+    {
+      "step": 8,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08"
+      ],
+      "sat_calls": 19,
+      "cell": "A3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H09"
+    },
+    {
+      "step": 9,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08"
+      ],
+      "sat_calls": 17,
+      "cell": "B3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H10"
+    },
+    {
+      "step": 10,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10"
+      ],
+      "sat_calls": 15,
+      "cell": "C3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H11"
+    },
+    {
+      "step": 11,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11"
+      ],
+      "sat_calls": 13,
+      "cell": "D3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H12"
+    },
+    {
+      "step": 12,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11",
+        "H12"
+      ],
+      "sat_calls": 11,
+      "cell": "A4",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H13"
+    },
+    {
+      "step": 13,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11",
+        "H12",
+        "H13"
+      ],
+      "sat_calls": 9,
+      "cell": "B4",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H14"
+    },
+    {
+      "step": 14,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14"
+      ],
+      "sat_calls": 7,
+      "cell": "D4",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H15"
+    },
+    {
+      "step": 15,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15"
+      ],
+      "sat_calls": 5,
+      "cell": "C4",
+      "verdict": "INNOCENT",
+      "revealed_clue": "H16"
+    },
+    {
+      "step": 16,
+      "active_clues": [
+        "H01",
+        "H09",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16"
+      ],
+      "sat_calls": 3,
+      "cell": "A1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "H01"
+    }
+  ],
+  "case_03": [
+    {
+      "step": 1,
+      "active_clues": [
+        "C01",
+        "C06"
+      ],
+      "sat_calls": 19,
+      "cell": "B1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "C03"
+    },
+    {
+      "step": 2,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03"
+      ],
+      "sat_calls": 17,
+      "cell": "C1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "C04"
+    },
+    {
+      "step": 3,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04"
+      ],
+      "sat_calls": 15,
+      "cell": "A2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "C05"
+    },
+    {
+      "step": 4,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "sat_calls": 13,
+      "cell": "C2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "C06"
+    },
+    {
+      "step": 5,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "sat_calls": 11,
+      "cell": "A3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "C07"
+    },
+    {
+      "step": 6,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05",
+        "C07"
+      ],
+      "sat_calls": 9,
+      "cell": "B3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "C08"
+    },
+    {
+      "step": 7,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "sat_calls": 7,
+      "cell": "C3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "C10"
+    },
+    {
+      "step": 8,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C10"
+      ],
+      "sat_calls": 5,
+      "cell": "A1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "C09"
+    },
+    {
+      "step": 9,
+      "active_clues": [
+        "C01",
+        "C06",
+        "C03",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C10",
+        "C09"
+      ],
+      "sat_calls": 3,
+      "cell": "B2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "C01"
+    }
+  ],
+  "case_04": [
+    {
+      "step": 1,
+      "active_clues": [
+        "B01",
+        "B10"
+      ],
+      "sat_calls": 33,
+      "cell": "A1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B02"
+    },
+    {
+      "step": 2,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02"
+      ],
+      "sat_calls": 31,
+      "cell": "A2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B06"
+    },
+    {
+      "step": 3,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06"
+      ],
+      "sat_calls": 29,
+      "cell": "B2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B07"
+    },
+    {
+      "step": 4,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07"
+      ],
+      "sat_calls": 27,
+      "cell": "C2",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B08"
+    },
+    {
+      "step": 5,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "sat_calls": 25,
+      "cell": "D2",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B09"
+    },
+    {
+      "step": 6,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09"
+      ],
+      "sat_calls": 23,
+      "cell": "A3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B10"
+    },
+    {
+      "step": 7,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09"
+      ],
+      "sat_calls": 21,
+      "cell": "B3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B11"
+    },
+    {
+      "step": 8,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11"
+      ],
+      "sat_calls": 19,
+      "cell": "C3",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B12"
+    },
+    {
+      "step": 9,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12"
+      ],
+      "sat_calls": 17,
+      "cell": "D3",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B13"
+    },
+    {
+      "step": 10,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13"
+      ],
+      "sat_calls": 15,
+      "cell": "A4",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B14"
+    },
+    {
+      "step": 11,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14"
+      ],
+      "sat_calls": 13,
+      "cell": "B4",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B16"
+    },
+    {
+      "step": 12,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B16"
+      ],
+      "sat_calls": 11,
+      "cell": "C4",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B17"
+    },
+    {
+      "step": 13,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B16",
+        "B17"
+      ],
+      "sat_calls": 9,
+      "cell": "D4",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B15"
+    },
+    {
+      "step": 14,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B16",
+        "B17",
+        "B15"
+      ],
+      "sat_calls": 7,
+      "cell": "B1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B03"
+    },
+    {
+      "step": 15,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B16",
+        "B17",
+        "B15",
+        "B03"
+      ],
+      "sat_calls": 5,
+      "cell": "C1",
+      "verdict": "CRIMINAL",
+      "revealed_clue": "B04"
+    },
+    {
+      "step": 16,
+      "active_clues": [
+        "B01",
+        "B10",
+        "B02",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B16",
+        "B17",
+        "B15",
+        "B03",
+        "B04"
+      ],
+      "sat_calls": 3,
+      "cell": "D1",
+      "verdict": "INNOCENT",
+      "revealed_clue": "B01"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "case_01",
+  "title": "The Night Shift",
+  "description": "A guided 3x3 case introducing binary and counting clues.",
+  "size": 3,
+  "initially_revealed": ["A1", "B2"],
+  "characters": [
+    {"cell": "A1", "name": "Avery", "profession": "Archivist"},
+    {"cell": "B1", "name": "Blair", "profession": "Baker"},
+    {"cell": "C1", "name": "Casey", "profession": "Chemist"},
+    {"cell": "A2", "name": "Drew", "profession": "Detective"},
+    {"cell": "B2", "name": "Emery", "profession": "Engineer"},
+    {"cell": "C2", "name": "Flynn", "profession": "Farmer"},
+    {"cell": "A3", "name": "Gray", "profession": "Guard"},
+    {"cell": "B3", "name": "Harper", "profession": "Historian"},
+    {"cell": "C3", "name": "Indigo", "profession": "Illustrator"}
+  ],
+  "solution": {
+    "A1": "CRIMINAL", "B1": "INNOCENT", "C1": "CRIMINAL",
+    "A2": "INNOCENT", "B2": "CRIMINAL", "C2": "INNOCENT",
+    "A3": "INNOCENT", "B3": "CRIMINAL", "C3": "CRIMINAL"
+  },
+  "clues": {
+    "A1": {"id": "N01", "type": "FACT", "data": {"cell": "B1", "status": "INNOCENT"}, "text": "Blair is innocent."},
+    "B1": {"id": "N02", "type": "FACT", "data": {"cell": "C1", "status": "CRIMINAL"}, "text": "Casey is a criminal."},
+    "C1": {"id": "N03", "type": "SAME", "data": {"a": "C1", "b": "B2"}, "text": "Casey and Emery have the same status."},
+    "A2": {"id": "N05", "type": "FACT", "data": {"cell": "A3", "status": "INNOCENT"}, "text": "Gray is innocent."},
+    "B2": {"id": "N04", "type": "DIFFERENT", "data": {"a": "B2", "b": "A2"}, "text": "Emery and Drew have different statuses."},
+    "C2": {"id": "N08", "type": "DIFFERENT", "data": {"a": "C2", "b": "C3"}, "text": "Flynn and Indigo have different statuses."},
+    "A3": {"id": "N06", "type": "AT_LEAST", "data": {"k": 1, "region": {"kind": "EXPLICIT", "cells": ["A3", "B3"]}}, "text": "At least one of Gray and Harper is criminal."},
+    "B3": {"id": "N07", "type": "EXACTLY", "data": {"k": 0, "region": {"kind": "EXPLICIT", "cells": ["C2"]}}, "text": "Exactly zero criminals are in the listed cell C2."},
+    "C3": {"id": "N09", "type": "FACT", "data": {"cell": "A1", "status": "CRIMINAL"}, "text": "Avery is a criminal."}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "case_03",
+  "title": "Corner Alibis",
+  "description": "A second 3x3 case featuring row, column, neighbor, and corner regions.",
+  "size": 3,
+  "initially_revealed": ["B2", "C2"],
+  "characters": [
+    {"cell":"A1","name":"Quinn","profession":"Quartermaster"},{"cell":"B1","name":"Riley","profession":"Reporter"},{"cell":"C1","name":"Sage","profession":"Sailor"},
+    {"cell":"A2","name":"Taylor","profession":"Tailor"},{"cell":"B2","name":"Uma","profession":"Usher"},{"cell":"C2","name":"Vale","profession":"Veterinarian"},
+    {"cell":"A3","name":"Winter","profession":"Writer"},{"cell":"B3","name":"Xen","profession":"Xylophonist"},{"cell":"C3","name":"Yael","profession":"Yardmaster"}
+  ],
+  "solution": {
+    "A1":"INNOCENT","B1":"CRIMINAL","C1":"INNOCENT",
+    "A2":"CRIMINAL","B2":"INNOCENT","C2":"CRIMINAL",
+    "A3":"INNOCENT","B3":"INNOCENT","C3":"CRIMINAL"
+  },
+  "clues": {
+    "A1":{"id":"C09","type":"FACT","data":{"cell":"B2","status":"INNOCENT"},"text":"Uma is innocent."},
+    "B1":{"id":"C03","type":"DIFFERENT","data":{"a":"B1","b":"C1"},"text":"Riley and Sage have different statuses."},
+    "C1":{"id":"C04","type":"FACT","data":{"cell":"A2","status":"CRIMINAL"},"text":"Taylor is a criminal."},
+    "A2":{"id":"C05","type":"FACT","data":{"cell":"C2","status":"CRIMINAL"},"text":"Vale is a criminal."},
+    "B2":{"id":"C01","type":"AT_LEAST","data":{"k":1,"region":{"kind":"EXPLICIT","cells":["B1"]}},"text":"At least one criminal is in the listed cell B1."},
+    "C2":{"id":"C06","type":"DIFFERENT","data":{"a":"C2","b":"A3"},"text":"Vale and Winter have different statuses."},
+    "A3":{"id":"C07","type":"AT_MOST","data":{"k":0,"region":{"kind":"EXPLICIT","cells":["B3"]}},"text":"At most zero criminals are in B3."},
+    "B3":{"id":"C08","type":"FACT","data":{"cell":"C3","status":"CRIMINAL"},"text":"Yael is a criminal."},
+    "C3":{"id":"C10","type":"FACT","data":{"cell":"A1","status":"INNOCENT"},"text":"Quinn is innocent."}
+  }
+}

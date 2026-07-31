@@ -1,0 +1,5 @@
+puzzle,size,primary_variables,auxiliary_variables,full_clauses,sat_calls,decisions,propagations,backtracks,deduction_steps,solved,uniqueness,runtime_ms
+case_01,3x3,9,0,12,99,26,493,0,9,True,UNIQUE,0.994
+case_02,4x4,16,0,26,288,154,2190,0,16,True,UNIQUE,3.94
+case_03,3x3,9,0,11,99,36,494,0,9,True,UNIQUE,0.952
+case_04,4x4,16,0,27,288,120,2168,0,16,True,UNIQUE,3.325
